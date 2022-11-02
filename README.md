@@ -1,5 +1,76 @@
 # Crawl and Visualize NeurIPS 2022 OpenReview Data
-This data includes all accepted papers and the rejected papers that opted in for public release.
+This data includes all accepted papers and the rejected papers that opted in for public release from NeurIPS 2022.
+
+
+## NeurIPS Accepted Papers Statistics
+
+<center>
+
+| Mean | Std | Min | Max | 25th Pctl | Median | 75th Pctl |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 6.07 |0.64 |3.67|8.25|5.67 | 6.0 | 6.5|
+
+</center>
+
+## Keywords
+### Wordcloud
+
+<p align="center">
+    <img src="assets/wordcloud.png" width="720"/>
+</p>
+
+### Top 25 Keywords' ratings
+<p align="center">
+    <img src="assets/keywords.png" width="720"/>
+</p>
+
+### Top 25 Keywords' ratings vs. frequency
+
+<p align="center">
+    <img src="assets/keyword_ratings.png" width="720"/>
+</p>
+
+## Rating Distribution
+
+### Accepted Papers' distribution
+
+<p align="center">
+    <img src="assets/accepted_ratings_dist.png" width="720"/>
+</p>
+
+### Public Rejected Papers' distribution
+
+<p align="center">
+    <img src="assets/rejected_ratings_dist.png" width="720"/>
+</p>
+
+## Top 10 Accepted Papers with Lowest Average Rating
+|Title|Average|Ratings|
+|--|--|--|
+[Learning to Compare Nodes in Branch and Bound with Graph Neural Networks](https://openreview.net/forum?id=0VhrZPJXcTU)|3.67|5, 3, 3
+[Root Cause Analysis of Failures in Microservices through Causal Discovery](https://openreview.net/forum?id=weoLjoYFvXY)|4.0|4, 4, 4
+[Harmonizing the object recognition strategies of deep neural networks with humans](https://openreview.net/forum?id=ZYKWi6Ylfg)|4.0|7, 4, 3, 2
+[Active Learning with Safety Constraints](https://openreview.net/forum?id=fdyxLGHE6bU)|4.0|5, 4, 3
+[Proppo: a Message Passing Framework for Customizable and Composable Learning Algorithms](https://openreview.net/forum?id=uOJZ_zU9qZm)|4.0|7, 3, 2
+[SIREN: Shaping Representations for Detecting Out-of-Distribution Objects](https://openreview.net/forum?id=8E8tgnYlmN)|4.0|5, 5, 2
+[SemiFL: Semi-Supervised Federated Learning for Unlabeled Clients with Alternate Training](https://openreview.net/forum?id=1GAjC_FauE)|4.0|5, 5, 3, 3
+[LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning](https://openreview.net/forum?id=isPnnaTZaP5)|4.25|6, 4, 4, 3
+[Stimulative Training of Residual Networks: A Social Psychology Perspective of Loafing](https://openreview.net/forum?id=NpeHeIkbfYU)|4.25|6, 4, 4, 3
+[Phase Transition from Clean Training to Adversarial Training](https://openreview.net/forum?id=gwsnBjNcVEe)|4.25|6, 4, 4, 3
+
+## Top 10 Public Rejected Papers with Highest Average Rating
+|Title|Average|Ratings|
+|--|--|--|
+[Undersampling is a Minimax Optimal Robustness Intervention in Nonparametric Classification](https://openreview.net/forum?id=CT5KJGfX4s-)|7.67|8, 8, 7
+[Ultra-marginal Feature Importance](https://openreview.net/forum?id=8ow4YReXH9j)|7.0|8, 7, 7, 6
+[Prompt Learning with Optimal Transport for Vision-Language Models](https://openreview.net/forum?id=b9APFSTylGT)|6.67|7, 7, 6
+[On the Word Boundaries of Emergent Languages Based on Harris's Articulation Scheme](https://openreview.net/forum?id=pOEN7dDC0d)|6.33|8, 6, 5
+[Prompt Injection: Parameterization of Fixed Inputs](https://openreview.net/forum?id=FjqBs4XKe87)|6.33|7, 7, 5
+[Estimating individual treatment effects under unobserved confounding using binary instruments](https://openreview.net/forum?id=BlF6CWzWKT7)|6.33|7, 6, 6
+[Bilinear Exponential Family of MDPs: Frequentist Regret Bound with Tractable Exploration $\&$ Planning](https://openreview.net/forum?id=LT6-Mxgb3QB)|6.33|7, 6, 6
+[Securing Secure Aggregation: Mitigating Multi-Round Privacy Leakage in Federated Learning](https://openreview.net/forum?id=nVV6S2sb_UL)|6.25|8, 7, 6, 4
+[Bridging Implicit and Explicit Geometric Transformations for Single-Image View Synthesis](https://openreview.net/forum?id=x4JZ3xX5mtv)|6.25|7, 6, 6, 6
+[Seeing Differently, Acting Similarly: Heterogeneously Observable Imitation Learning](https://openreview.net/forum?id=4WgqjmYacAf)|6.0|6, 6, 6
 
 ## NeurIPS Public Papers 
 |Rank|Title|Average|Ratings|Decision|
